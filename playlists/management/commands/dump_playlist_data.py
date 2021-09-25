@@ -20,6 +20,11 @@ class Command(BaseCommand):
         if not playlist_data:
             raise CommandError(f"Error fetching playlist {playlist_id}")
         else:
-            formatted_track_data = spotify_client.format_playlist_tracks(playlist_data)
+            formatted_track_data = spotify_client.format_playlist_data(playlist_data)
+            playlist = Playlist.objects.create(
+                **formatted_track_data["playlist"]
+            )
+            for track in formatted_track_data["tracks"]:
+                track = Track.objects.create(**track)
+                track.playlists.add(playlist)
             self.stdout.write(self.style.SUCCESS(f"Successfully dumped playlist {playlist_id} to the database"))
-
