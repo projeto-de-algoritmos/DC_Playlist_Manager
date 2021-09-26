@@ -4,5 +4,6 @@ from django.urls import path
 from playlists import views
 
 urlpatterns = [
-    path('status/', views.status),
+    path("", views.HomePageView.as_view(), name="home"),
+    path("tracks/", views.TrackListView.as_view(), name="track-list"),
 ]

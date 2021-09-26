@@ -26,6 +26,7 @@ class SpotifyClient(object):
         response = requests.get(url, headers=self.HEADERS)
         response_json = response.json()
         if "error" in response_json:
+            print(response_json)
             logger.error(
                 f"Error fetching playlist {playlist_id}",
                 extra={"response_json": response_json, "status_code": response.status_code}
@@ -48,10 +49,13 @@ class SpotifyClient(object):
         }
 
         for track in playlist_tracks:
+            artists = [artist["name"] for artist in track["track"]["artists"]]
+            artists_names = ', '.join([artist for artist in artists])
+
             playlist_track_data = {
                 "album_name": track["track"]["album"]["name"],
-                "album_image": track["track"]["album"]["images"][self.TRACK_IMAGE_DIMENSION_300],
-                "artists": [artist["name"] for artist in track["track"]["artists"]],
+                "album_image": track["track"]["album"]["images"][self.TRACK_IMAGE_DIMENSION_300]["url"],
+                "artists": artists_names,
                 "name": track["track"]["name"],
                 "popularity": track["track"]["popularity"],
                 "duration": track["track"]["duration_ms"],
