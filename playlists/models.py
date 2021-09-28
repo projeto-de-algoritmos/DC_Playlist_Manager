@@ -1,5 +1,6 @@
+from datetime import datetime
+
 from django.db import models
-from django.contrib.postgres.fields import ArrayField
 
 
 class Playlist(models.Model):
@@ -21,13 +22,10 @@ class Track(models.Model):
 
     @property
     def duration_formatted(self):
-        duration_milliseconds = self.duration
-
-        seconds =(duration_milliseconds/1000)%60
-        seconds = int(seconds)
-
-        minutes = (duration_milliseconds/(1000*60))%60
-        minutes = int(minutes)
+        parsed_duration = datetime.fromtimestamp(self.duration/1000)
+        minutes = parsed_duration.minute
+        seconds = f"0{parsed_duration.second}" if parsed_duration.second / 10 < 1 else parsed_duration.second
+        
         return f"{minutes}:{seconds}"
 
     def __str__(self):
