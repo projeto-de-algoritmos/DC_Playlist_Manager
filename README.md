@@ -47,7 +47,7 @@ Realize as migrações do banco de dados com o seguinte comando:
 $ python manage.py migrate
 ```
 
-Para facilitar a primeira execução do projeto, foi adicionado o arquivo `dump.zip` com um arquivo `json` para carregar o dump de 100 atrações turísticas da cidade de Nova Iorque. Extraia o arquivo `dump.zip` e execute os seguintes comandos para carregar o grafo no banco de dados.
+Para facilitar a primeira execução do projeto, foi adicionado o arquivo `playlist_dump.json` com um arquivo `json` para carregar o dump de músicas da playlist Top Brasil e execute os seguintes comandos para carregar as músicas no banco de dados.
 
 Carregando dados:
 ```sh
