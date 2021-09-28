@@ -1,0 +1,761 @@
+[
+    {
+        "model": "playlists.playlist",
+        "pk": 1,
+        "fields": {
+            "name": "Top Brasil",
+            "description": "O que tá bombando tá aqui! Zé Neto & Cristiano e os maiores hits do país.",
+            "image": "https://i.scdn.co/image/ab67706f00000003d1fba006347b0c4248cec7ed"
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 1,
+        "fields": {
+            "name": "Você Beberia Ou Não Beberia?",
+            "popularity": 84,
+            "duration": 154662,
+            "artists": "Zé Neto & Cristiano",
+            "album_name": "Você Beberia Ou Não Beberia?",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02723aae50e316e2c6d18b7471",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 2,
+        "fields": {
+            "name": "Arranhão - Ao Vivo",
+            "popularity": 85,
+            "duration": 153409,
+            "artists": "Henrique & Juliano",
+            "album_name": "Arranhão (Ao Vivo)",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02b0aa687ae0900288e213e4dd",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 3,
+        "fields": {
+            "name": "Chega E Senta - Ao Vivo",
+            "popularity": 84,
+            "duration": 153739,
+            "artists": "John Amplificado",
+            "album_name": "Chega E Senta (Ao Vivo)",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02e7b46ed664a75aff2ac5e6b7",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 4,
+        "fields": {
+            "name": "Bala Love",
+            "popularity": 82,
+            "duration": 221538,
+            "artists": "Mc Anjim, Dj Lv Mdp, DJ PH DA SERRA",
+            "album_name": "Bala Love",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02598a803329e76e7f9807545f",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 5,
+        "fields": {
+            "name": "Quer Voar",
+            "popularity": 85,
+            "duration": 187636,
+            "artists": "Matuê",
+            "album_name": "Quer Voar",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02e18fdab2c030bd3aed5c2afb",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 6,
+        "fields": {
+            "name": "Meu Pedaço de Pecado",
+            "popularity": 79,
+            "duration": 159615,
+            "artists": "João Gomes",
+            "album_name": "Meu Pedaço de Pecado",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e0276848710f0e551683f35e8ed",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 7,
+        "fields": {
+            "name": "Rolê",
+            "popularity": 82,
+            "duration": 174937,
+            "artists": "Tarcísio do Acordeon, Marcynho Sensação",
+            "album_name": "Rolê",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e022a3a47d42b3320552aec8b23",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 8,
+        "fields": {
+            "name": "Senta Danada",
+            "popularity": 82,
+            "duration": 172621,
+            "artists": "Zé Felipe, Os Barões Da Pisadinha",
+            "album_name": "Senta Danada",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02beab1b8ce544dc064445b2c4",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 9,
+        "fields": {
+            "name": "Passinho Debochado",
+            "popularity": 78,
+            "duration": 85333,
+            "artists": "Dan Ventura",
+            "album_name": "Passinho Debochado",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e024563c81325e80d30d07acc46",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 10,
+        "fields": {
+            "name": "Baby Me Atende",
+            "popularity": 81,
+            "duration": 225671,
+            "artists": "Matheus Fernandes, Dilsinho",
+            "album_name": "Baby Me Atende",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02794c337d1b19033f7008d902",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 11,
+        "fields": {
+            "name": "Ela e Ela",
+            "popularity": 82,
+            "duration": 168644,
+            "artists": "Zé Neto & Cristiano",
+            "album_name": "Chaaama",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02a10a9c3f5d21ec10fc0f0607",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 12,
+        "fields": {
+            "name": "Nota de Repúdio - Ao Vivo",
+            "popularity": 80,
+            "duration": 164949,
+            "artists": "Gusttavo Lima",
+            "album_name": "Nota de Repúdio (Ao Vivo)",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e022b8f46d79bc9c5df1a2016bd",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 13,
+        "fields": {
+            "name": "Zero Saudade - Ao Vivo",
+            "popularity": 76,
+            "duration": 184639,
+            "artists": "Os Barões Da Pisadinha, Maiara & Maraisa",
+            "album_name": "Zero Saudade (Ao Vivo)",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02c5a4f0b307e1072a53ed767c",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 14,
+        "fields": {
+            "name": "Doutora 3",
+            "popularity": 78,
+            "duration": 157088,
+            "artists": "Mc Kevin",
+            "album_name": "Funk é Nóis GR6 3.1 - Vol. 1",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e0233bfb3d3baa54942fca16191",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 15,
+        "fields": {
+            "name": "Eu Fiz o Jogo Virar",
+            "popularity": 77,
+            "duration": 145573,
+            "artists": "Mc Poze do Rodo, Mainstreet, Ajaxx",
+            "album_name": "Eu Fiz o Jogo Virar",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e024774f99f1264a8ff297790de",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 16,
+        "fields": {
+            "name": "Se Essa Bunda",
+            "popularity": 81,
+            "duration": 249125,
+            "artists": "Costa Gold, Kawe, André Nine",
+            "album_name": "Se Essa Bunda",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02b97e4b3d7ed89abd24e4df01",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 17,
+        "fields": {
+            "name": "MORENA",
+            "popularity": 84,
+            "duration": 193221,
+            "artists": "Luan Santana",
+            "album_name": "MORENA",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02e4ba474c74e6b24ba18d7c8b",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 18,
+        "fields": {
+            "name": "Cê Tá Preparada - Ao Vivo",
+            "popularity": 80,
+            "duration": 213006,
+            "artists": "Tayrone, Marília Mendonça",
+            "album_name": "Cê Tá Preparada (Ao Vivo)",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02e83ae7bd3fb259f30afda163",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 19,
+        "fields": {
+            "name": "Aquelas Coisas",
+            "popularity": 83,
+            "duration": 147072,
+            "artists": "João Gomes",
+            "album_name": "Eu Tenho a Senha",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e025722ad4a2e4a8bc1de33dab1",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 20,
+        "fields": {
+            "name": "Não, Não Vou",
+            "popularity": 75,
+            "duration": 173037,
+            "artists": "Mari Fernandez",
+            "album_name": "Piseiro Sofrência",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e021c8bc55954f403190538ce8f",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 21,
+        "fields": {
+            "name": "Se Joga no Passinho",
+            "popularity": 81,
+            "duration": 200000,
+            "artists": "Brisa Star, Thiago Jhonathan (TJ)",
+            "album_name": "Se Joga no Passinho",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e0261722b55638ad4b493437e6e",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 22,
+        "fields": {
+            "name": "Sem Sentimento",
+            "popularity": 75,
+            "duration": 131067,
+            "artists": "DG e Batidão Stronda, Felipe Amorim, Mc Danny",
+            "album_name": "Sem Sentimento",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e0247d73edeb5b28349cac345eb",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 23,
+        "fields": {
+            "name": "Não Nasceu pra Namorar",
+            "popularity": 82,
+            "duration": 140307,
+            "artists": "MC Zaquin, MC Rick",
+            "album_name": "Não Nasceu pra Namorar",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e0216842124fadf5256b4b16a96",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 24,
+        "fields": {
+            "name": "Tipo Gin - Ao Vivo",
+            "popularity": 78,
+            "duration": 159146,
+            "artists": "MC Kevin o Chris",
+            "album_name": "Todo Mundo Ama O Chris (Ao Vivo)",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e0203bc808cc7c8eabd36483181",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 25,
+        "fields": {
+            "name": "Expectativa x Realidade",
+            "popularity": 78,
+            "duration": 163324,
+            "artists": "Matheus & Kauan",
+            "album_name": "Expectativa x Realidade",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e0227a52bf01fd059d51280e740",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 26,
+        "fields": {
+            "name": "A Maior Saudade - Ao Vivo",
+            "popularity": 77,
+            "duration": 190161,
+            "artists": "Henrique & Juliano",
+            "album_name": "A Maior Saudade (Ao Vivo)",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e025eccbd7a67763d28a70ae92c",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 27,
+        "fields": {
+            "name": "Desbloqueado - Ao Vivo",
+            "popularity": 78,
+            "duration": 188671,
+            "artists": "Diego & Victor Hugo",
+            "album_name": "Desbloqueado (Ao Vivo)",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02c67df1359d5f5414fb169fb0",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 28,
+        "fields": {
+            "name": "Ficha Limpa",
+            "popularity": 84,
+            "duration": 192725,
+            "artists": "Gusttavo Lima",
+            "album_name": "Falando de Amor, Vol. 1",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e024945b446d98cf33fabc310c6",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 29,
+        "fields": {
+            "name": "Volta Rapariga",
+            "popularity": 75,
+            "duration": 196371,
+            "artists": "Vitinho Imperador",
+            "album_name": "Seleção do Imperador",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e029b3b249e36dfc06fba1bcfdf",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 30,
+        "fields": {
+            "name": "Passatempo",
+            "popularity": 76,
+            "duration": 162237,
+            "artists": "Wesley Safadão",
+            "album_name": "Passatempo",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02f6b0acebdcb5052e0ccc795e",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 31,
+        "fields": {
+            "name": "Cena de Amor",
+            "popularity": 77,
+            "duration": 222000,
+            "artists": "Brisa Star, Zé Vaqueiro",
+            "album_name": "Cena de Amor",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02a8d944aec807d152b6af96d4",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 32,
+        "fields": {
+            "name": "Só Não Divulga",
+            "popularity": 80,
+            "duration": 160476,
+            "artists": "Fernando & Sorocaba, Tarcísio do Acordeon",
+            "album_name": "Só Não Divulga",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e0267d31043d16d7fb56fd22057",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 33,
+        "fields": {
+            "name": "Troca",
+            "popularity": 80,
+            "duration": 171263,
+            "artists": "Jorge & Mateus",
+            "album_name": "Tudo Em Paz",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02f31a4cd4fcf00749d0d49422",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 34,
+        "fields": {
+            "name": "Faz Amor Comigo Só Hoje - Ao Vivo",
+            "popularity": 78,
+            "duration": 148227,
+            "artists": "Israel & Rodolffo, Wesley Safadão",
+            "album_name": "Faz Amor Comigo Só Hoje (Ao Vivo)",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e024b2022c3b2314327b744fce1",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 35,
+        "fields": {
+            "name": "Se For Amor",
+            "popularity": 81,
+            "duration": 239928,
+            "artists": "João Gomes, Vitor Fernandes",
+            "album_name": "Eu Tenho a Senha",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e025722ad4a2e4a8bc1de33dab1",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 36,
+        "fields": {
+            "name": "Apê 1001",
+            "popularity": 77,
+            "duration": 171428,
+            "artists": "BIN, LUDMILLA, Mainstreet, Dallass",
+            "album_name": "Apê 1001",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e0292136166a9161b460b733674",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 37,
+        "fields": {
+            "name": "A Cara do Crime (Nós Incomoda)",
+            "popularity": 81,
+            "duration": 302117,
+            "artists": "Mc Poze do Rodo, Bielzin, Mainstreet, MC Cabelinho, PL Quest, Neo Beats",
+            "album_name": "A Cara do Crime (Nós Incomoda)",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02f397a8f1958e9565425112e6",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 38,
+        "fields": {
+            "name": "Rei Lacoste",
+            "popularity": 75,
+            "duration": 152000,
+            "artists": "MD Chefe, DomLaike",
+            "album_name": "Rei Lacoste",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02ef442a1f1869c90b6e4f9fb8",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 39,
+        "fields": {
+            "name": "Não Quer Chifre",
+            "popularity": 75,
+            "duration": 149323,
+            "artists": "Mc Frog, DJ Lucas Beat",
+            "album_name": "Não Quer Chifre",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02ef9e4691b157519204e161e6",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 40,
+        "fields": {
+            "name": "Bipolar",
+            "popularity": 80,
+            "duration": 276480,
+            "artists": "Mc Davi, Mc Pedrinho, Mc Don Juan",
+            "album_name": "Bipolar",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02db8887fdc9f1052b54a9bd65",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 41,
+        "fields": {
+            "name": "Menina Se Prepara",
+            "popularity": 78,
+            "duration": 210461,
+            "artists": "Mc Pepeu, DJ Swat",
+            "album_name": "Menina Se Prepara",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e023aecc384f36e54a29fef76c6",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 42,
+        "fields": {
+            "name": "Revoada No Colchão",
+            "popularity": 68,
+            "duration": 153448,
+            "artists": "Zé Felipe, Marcynho Sensação",
+            "album_name": "Revoada No Colchão",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e024b73e91718f6db5e7fd23bef",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 43,
+        "fields": {
+            "name": "Fim da Noite",
+            "popularity": 76,
+            "duration": 167168,
+            "artists": "Zé Vaqueiro",
+            "album_name": "Fim da Noite",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e021ca95039ccd482ed9cff1e03",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 44,
+        "fields": {
+            "name": "Faxina (Ao Vivo No Casa Filtr)",
+            "popularity": 77,
+            "duration": 153241,
+            "artists": "Guilherme & Benuto, Os Barões Da Pisadinha",
+            "album_name": "Faxina (Ao Vivo No Casa Filtr)",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02f045815bf29cc0d67171b4b2",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 45,
+        "fields": {
+            "name": "Vou falar que não quero",
+            "popularity": 76,
+            "duration": 186831,
+            "artists": "Vitor Fernandes",
+            "album_name": "Piseiro Apaixonado",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e02965756c004b4b8c41e9c2a57",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 46,
+        "fields": {
+            "name": "Localiza Aí BB",
+            "popularity": 81,
+            "duration": 145308,
+            "artists": "Vitor e Luan, Henrique & Juliano",
+            "album_name": "Localiza Aí BB",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e0285fe636bdf2308ee44b18452",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 47,
+        "fields": {
+            "name": "Vagabundo",
+            "popularity": 80,
+            "duration": 165380,
+            "artists": "Matheus & Kauan, Zé Vaqueiro",
+            "album_name": "Vagabundo",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e026945d82b02f6b0c4eaf1eef2",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 48,
+        "fields": {
+            "name": "Troca de Calçada",
+            "popularity": 76,
+            "duration": 203158,
+            "artists": "Marília Mendonça",
+            "album_name": "Troca de Calçada",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e025eba99fd76c96ae206756326",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 49,
+        "fields": {
+            "name": "Paradigmas",
+            "popularity": 75,
+            "duration": 157354,
+            "artists": "Jorge & Mateus",
+            "album_name": "Tudo Em Paz, Vol. 1",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e024dfc0b0d2e9d208579cb65ab",
+            "playlists": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "playlists.track",
+        "pk": 50,
+        "fields": {
+            "name": "Batom de Cereja - Ao Vivo",
+            "popularity": 80,
+            "duration": 140942,
+            "artists": "Israel & Rodolffo",
+            "album_name": "Aqui e Agora, Vol.1 (Ao Vivo)",
+            "album_image": "https://i.scdn.co/image/ab67616d00001e029726aea0a29b86961db39a23",
+            "playlists": [
+                1
+            ]
+        }
+    }
+]
