@@ -1,10 +1,10 @@
 
 <div>
     {% if page.has_previous %}
-    <a href="?page={{ page.previous_page_number }}">Anterior</a>
+    <a href="?page={{ page.previous_page_number }}&ordering={{ordering}}">Anterior</a>
     {% endif %}
     Página {{ page.number }} de {{ page.paginator.num_pages }}.
     {% if page.has_next %}
-    <a href="?page={{ page.next_page_number }}">Próxima</a>
+    <a href="?page={{ page.next_page_number }}&ordering={{ordering}}">Próxima</a>
     {% endif %}
 </div>
